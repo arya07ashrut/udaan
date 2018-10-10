@@ -29,6 +29,7 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <!-- End Head -->
 
@@ -349,77 +350,63 @@
     <!-- Swiper -->
     <div class="s-swiper js__swiper-news">
       <!-- Wrapper -->
-      <div class="swiper-wrapper g-margin-b-60--xs">
-        <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/07.jpg');">
-          <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-            <div class="g-margin-b-25--xs">
-              <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
-              <p class="g-color--white">Clinics can be privately operated.</p>
-            </div>
-            <a href="index_news.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
-          </div>
-        </article>
-        <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/08.jpg');">
-          <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-            <div class="g-margin-b-25--xs">
-              <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
-              <p class="g-color--white">Clinics can be privately operated.</p>
-            </div>
-            <a href="index_news.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
-          </div>
-        </article>
-        <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/09.jpg');">
-          <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-            <div class="g-margin-b-25--xs">
-              <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
-              <p class="g-color--white">Clinics can be privately operated.</p>
-            </div>
-            <a href="index_news.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
-          </div>
-        </article>
-        <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/10.jpg');">
-          <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-            <div class="g-margin-b-25--xs">
-              <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
-              <p class="g-color--white">Clinics can be privately operated.</p>
-            </div>
-            <a href="index_news.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
-          </div>
-        </article>
-        <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/11.jpg');">
-          <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-            <div class="g-margin-b-25--xs">
-              <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
-              <p class="g-color--white">Clinics can be privately operated.</p>
-            </div>
-            <a href="index_news.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
-          </div>
-        </article>
-
-        <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/12.jpg');">
-          <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-            <div class="g-margin-b-25--xs">
-              <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
-              <p class="g-color--white">Clinics can be privately operated.</p>
-            </div>
-            <a href="index_news.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
-          </div>
-        </article>
-
-        <!--
-        <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/13.jpg');">
-          <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-            <div class="g-margin-b-25--xs">
-              <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
-              <p class="g-color--white">Clinics can be privately operated.</p>
-            </div>
-            <a href="http://keenthemes.com/" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
-          </div>
-        </article>
-        -->
-
-      </div>
-      <!-- End Wrapper -->
+                <div class="swiper-wrapper g-margin-b-60--xs">
+                    <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/07.jpg');">
+                        <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
+                            <div class="g-margin-b-25--xs">
+                                <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
+                                <p class="g-color--white">Clinics can be privately operated.</p>
+                            </div>
+                            <button type="button" id="myButton" data-toggle="modal" data-target="#myModal1" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</button>
+                        </div>
+                    </article>
+                    <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/08.jpg');">
+                        <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
+                            <div class="g-margin-b-25--xs">
+                                <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
+                                <p class="g-color--white">Clinics can be privately operated.</p>
+                            </div>
+                            <a type="button"  data-toggle="modal" data-target="#myModal2" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
+                        </div>
+                    </article>
+                    <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/09.jpg');">
+                        <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
+                            <div class="g-margin-b-25--xs">
+                                <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
+                                <p class="g-color--white">Clinics can be privately operated.</p>
+                            </div>
+                            <a type="button"  data-toggle="modal" data-target="#myModal3" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
+                        </div>
+                    </article>
+                    <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/10.jpg');">
+                        <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
+                            <div class="g-margin-b-25--xs">
+                                <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
+                                <p class="g-color--white">Clinics can be privately operated.</p>
+                            </div>
+                            <a type="button"  data-toggle="modal" data-target="#myModal4" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
+                        </div>
+                    </article>
+                    <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/11.jpg');">
+                        <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
+                            <div class="g-margin-b-25--xs">
+                                <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
+                                <p class="g-color--white">Clinics can be privately operated.</p>
+                            </div>
+                            <a type="button"  data-toggle="modal" data-target="#myModal5" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
+                        </div>
+                    </article>
+                    <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/400x500/12.jpg');">
+                        <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
+                            <div class="g-margin-b-25--xs">
+                                <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Medical Services</h3>
+                                <p class="g-color--white">Clinics can be privately operated.</p>
+                            </div>
+                            <a type="button"  data-toggle="modal" data-target="#myModal6" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <!-- End Wrapper -->
 
       <!-- Pagination -->
       <div class="s-swiper__pagination-v1 s-swiper__pagination-v1--dark g-text-center--xs js__swiper-pagination"></div>
@@ -562,6 +549,209 @@
             <!-- End Copyright -->
         </footer>
         <!--========== END FOOTER ==========-->
+
+
+        <!--modal News Feeds-->
+    <div id="myModal1" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width:807px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 style="font-size:34px;color:black;font-family:'Berkshire Swash';text-align:center;" class="modal-title" id="news_head1"></h1>
+                </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-responsive g-width-100-percent--xs" id="news_img1">
+                    </div><br/><br/>
+                    <!-- news body -->
+                    <div class="row" id="news_div1">
+                    </div>
+                    <!-- news body end -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="text-uppercase s-btn s-btn--xs  g-radius--50" style="background-color: #ccefff;">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal2" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width:807px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 style="font-size:34px;color:black;font-family:'Berkshire Swash';text-align:center;" class="modal-title">News Feed 1</h1>
+                </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-responsive g-width-100-percent--xs" src="img/450x215/01.jpg">
+                    </div><br/><br/>
+                    <div class="row">
+                        <p style="font-size: 18px;">Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="text-uppercase s-btn s-btn--xs  g-radius--50" style="background-color: #ccefff;">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal3" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width:807px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 style="font-size:34px;color:black;font-family:'Berkshire Swash';text-align:center;" class="modal-title">News Feed 1</h1>
+                </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-responsive g-width-100-percent--xs" src="img/450x215/01.jpg">
+                    </div><br/><br/>
+                    <div class="row">
+                        <p style="font-size: 18px;">Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="text-uppercase s-btn s-btn--xs  g-radius--50" style="background-color: #ccefff;">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal4" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width:807px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 style="font-size:34px;color:black;font-family:'Berkshire Swash';text-align:center;" class="modal-title">News Feed 1</h1>
+                </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-responsive g-width-100-percent--xs" src="img/450x215/01.jpg">
+                    </div><br/><br/>
+                    <div class="row">
+                        <p style="font-size: 18px;">Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="text-uppercase s-btn s-btn--xs  g-radius--50" style="background-color: #ccefff;">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal5" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width:807px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 style="font-size:34px;color:black;font-family:'Berkshire Swash';text-align:center;" class="modal-title">News Feed 1</h1>
+                </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-responsive g-width-100-percent--xs" src="img/450x215/01.jpg">
+                    </div><br/><br/>
+                    <div class="row">
+                        <p style="font-size: 18px;">Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="text-uppercase s-btn s-btn--xs  g-radius--50" style="background-color: #ccefff;">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal6" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width:807px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 style="font-size:34px;color:black;font-family:'Berkshire Swash';text-align:center;" class="modal-title">News Feed 1</h1>
+                </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-responsive g-width-100-percent--xs" src="img/450x215/01.jpg">
+                    </div><br/><br/>
+                    <div class="row">
+                        <p style="font-size: 18px;">Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...Hello, we are here to help you...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="text-uppercase s-btn s-btn--xs  g-radius--50" style="background-color: #ccefff;">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!--modal news feeds end-->
+
+
+
+
+        <!--Jquery news feed updates-->
+
+        <!-- both scripts are working correctly :) -->
+
+
+        <!-- <script>
+            $(document).ready(function(){
+                const Url = 'http://192.168.1.9:8002/news_feed/';
+                $('#myButton').click(function(){
+                    $.ajax({
+                        url:Url,
+                        type:"GET",
+                        success:function(result){
+                            if(result){
+                                $("#news_div1").html('<p style="font-size: 18px;" id="">' + result.news_list[0].news_para + '</p>');
+                                $("#news_img1").attr("src","http://192.168.1.9:8002/media/news/news_image/Shoulder_the_responsibility.jpeg");
+                                $("#news_head1").html(result.news_list[0].headline);
+                            }
+                        },
+                        error:function(error){
+                            console.log('Error ${error}');
+                        }
+                    });
+                });
+            });
+        </script> -->
+
+        <script>
+            var xmlhttp = new XMLHttpRequest(); 
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var myObj = JSON.parse(this.responseText);
+                    document.getElementById("news_head1").innerHTML = myObj.news_list[0].headline;
+                    document.getElementById("news_img1").src = myObj.news_list[0].image;
+                    document.getElementById("news_div1").innerHTML = '<p style="font-size: 18px;" id="">' + myObj.news_list[0].news_para + '</p>';
+                }
+            };
+
+            document.getElementById("myButton").addEventListener("click",
+                function() {
+                    xmlhttp.send()
+                },
+                false   
+            );
+            xmlhttp.open("GET", "http://192.168.1.9:8002/news_feed/", true);
+        </script>
+
+
+        <!--Jquery news feed updates end-->
+
 
   <!-- Back To Top -->
   <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
